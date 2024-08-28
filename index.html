@@ -11,65 +11,177 @@
         <nav>
             <ul class="nav-right-section">
                 <li>
-                    <a href="https://mail.google.com/mail/&amp;ogbl">Gmail</a>
+                    <a href="https://mail.google.com/mail/&ogbl">Gmail</a>
                 </li>
                 <li>
-                    <a href="https://www.google.com/imghp?hl=es-419&amp;ogbl">Image</a>
+                    <a href="https://www.google.com/imghp?hl=es-419&ogbl">Imágenes</a>
                 </li>
                 <li class="menu-icon">
-                    <a href=""></a>
+                    <button id="menuButton"></button>
                 </li>
+
+                <!-- Botón de Iniciar Sesión -->
                 <li>
-                    <a href="">
-                        <img src="https://lh3.google.com/u/0/ogw/AF2bZyh6gywZNup_BLTMWjg9hdhy2MdkWdNu9MXSm9SZ=s32-c-mo" alt="photo">
+                    <a class="gb_Sa gb_wd gb_nd gb_ed" aria-label="Iniciar sesión" href="https://accounts.google.com/ServiceLogin?hl=es&amp;passive=true&amp;continue=https://www.google.com/%3Fhl%3Des&amp;ec=GAZAmgQ" target="_top">
+                        <span class="gb_Rd">Iniciar sesión</span>
                     </a>
                 </li>
             </ul>
         </nav>
     </header>
+
+    <!-- Contenedor del menú desplegable -->
+    <div id="dropdownMenu" class="menu-container hidden">
+        <ul class="menu">
+            <li class="menu-item">
+                <a href="https://myaccount.google.com/?utm_source=OGB&amp;utm_medium=app&amp;authuser=0" target="_top">
+                    <span class="menu-icon" style="background-image: url('https://www.gstatic.com/images/branding/product/1x/googleg_48dp.png');"></span>
+                    Cuenta
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://www.google.com/?authuser=0" target="_top">
+                    <span class="menu-icon" style="background-image: url('https://www.gstatic.com/images/branding/product/1x/search_48dp.png');"></span>
+                    Búsqueda
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://maps.google.com/?authuser=0" target="_top">
+                    <span class="menu-icon" style="background-image: url('https://www.gstatic.com/images/branding/product/1x/maps_48dp.png');"></span>
+                    Maps
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://www.youtube.com?authuser=0" target="_top">
+                    <span class="menu-icon" style="background-image: url('https://www.gstatic.com/images/branding/product/1x/youtube_48dp.png');"></span>
+                    YouTube
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://play.google.com/?authuser=0" target="_top">
+                    <span class="menu-icon" style="background-image: url('https://www.gstatic.com/images/branding/product/1x/play_48dp.png');"></span>
+                    Play
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://news.google.com?authuser=0" target="_top">
+                    <span class="menu-icon" style="background-image: url('https://www.gstatic.com/images/branding/product/1x/news_48dp.png');"></span>
+                    Noticias
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://mail.google.com/mail/?authuser=0" target="_top">
+                    <span class="menu-icon" style="background-image: url('https://www.gstatic.com/images/branding/product/1x/gmail_48dp.png');"></span>
+                    Gmail
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://meet.google.com?hs=197&amp;authuser=0" target="_top">
+                    <span class="menu-icon" style="background-image: url('https://www.gstatic.com/images/branding/product/1x/meet_48dp.png');"></span>
+                    Meet
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://chat.google.com?authuser=0" target="_top">
+                    <span class="menu-icon" style="background-image: url('https://www.gstatic.com/images/branding/product/1x/chat_48dp.png');"></span>
+                    Chat
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://contacts.google.com/?authuser=0" target="_top">
+                    <span class="menu-icon" style="background-image: url('https://www.gstatic.com/images/branding/product/1x/contacts_48dp.png');"></span>
+                    Contactos
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://drive.google.com/?authuser=0" target="_top">
+                    <span class="menu-icon" style="background-image: url('https://www.gstatic.com/images/branding/product/1x/drive_48dp.png');"></span>
+                    Drive
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://calendar.google.com/calendar?authuser=0" target="_top">
+                    <span class="menu-icon" style="background-image: url('https://www.gstatic.com/images/branding/product/1x/calendar_48dp.png');"></span>
+                    Calendario
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://translate.google.com/?authuser=0" target="_top">
+                    <span class="menu-icon" style="background-image: url('https://www.gstatic.com/images/branding/product/1x/translate_48dp.png');"></span>
+                    Traductor
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://photos.google.com/?authuser=0" target="_top">
+                    <span class="menu-icon" style="background-image: url('https://www.gstatic.com/images/branding/product/1x/photos_48dp.png');"></span>
+                    Fotos
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://myadcenter.google.com/?ref=app-launcher&amp;authuser=0" target="_top">
+                    <span class="menu-icon" style="background-image: url('https://www.gstatic.com/images/branding/product/1x/adcenter_48dp.png');"></span>
+                    Mi centro de anuncios
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://www.google.com/shopping?source=og&amp;authuser=0" target="_top">
+                    <span class="menu-icon" style="background-image: url('https://www.gstatic.com/images/branding/product/1x/shopping_48dp.png');"></span>
+                    Shopping
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://gemini.google.com?authuser=0" target="_top">
+                    <span class="menu-icon" style="background-image: url('https://www.gstatic.com/images/branding/product/1x/gemini_48dp.png');"></span>
+                    Gemini
+                </a>
+            </li>
+        </ul>
+    </div>
+
     <main>
         <section class="main-logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/640px-Google_2015_logo.svg.png" alt="">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/640px-Google_2015_logo.svg.png" alt="Google Logo">
         </section>
         <section class="main-input">
-            <div class="main-input-container">
-                <span class="search-icon">
-                </span>
-                <input type="text">
-                <span class="micro-icon" href=""></span>
-            </div>
+            <form class="main-input-container" action="https://www.google.com/search" method="GET">
+                <input type="text" name="q" placeholder="Buscar en Google...">
+                <button type="submit" class="search-icon"></button>
+                <button type="button" class="micro-icon"></button>
+            </form>
         </section>
         <section class="main-buttons">
-            <div><button>Buscar con Google</button></div>
-            <div><button>Me siento con suerte</button></div>
+            <div><button type="submit" form="form">Buscar con Google</button></div>
+            <div><button type="button" onclick="location.href='https://www.google.com/doodles'">Me siento con suerte</button></div>
         </section>
     </main>
     <footer>
         <ul class="footer-left">
             <li>
-                <a href="">Publicidad</a>
+                <a href="https://ads.google.com/">Publicidad</a>
             </li>
             <li>
-                <a href="">Negocios</a>
+                <a href="https://www.google.com/services/">Negocios</a>
             </li>
             <li>
-                <a href="">Acerca de</a>
+                <a href="https://about.google/">Acerca de</a>
             </li>
             <li>
-                <a href="">Como funciona la busqueda</a>
+                <a href="https://www.google.com/search/howsearchworks/">Cómo funciona la búsqueda</a>
             </li>
         </ul>
         <ul class="footer-right">
             <li>
-                <a href="">Privacidad</a>
+                <a href="https://policies.google.com/privacy">Privacidad</a>
             </li>
             <li>
-                <a href="">Condiciones</a>
+                <a href="https://policies.google.com/terms">Condiciones</a>
             </li>
             <li>
-                <a href="">Preferencias</a>
+                <a href="https://myaccount.google.com/preferences">Preferencias</a>
             </li>
         </ul>
     </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
